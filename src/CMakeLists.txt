@@ -41,8 +41,20 @@ if(CPP_STARTER_USE_NANA)
   add_subdirectory(nana)
 endif()
 
+FIND_PACKAGE(Boost)
+
+IF(!Boost_FOUND)
+
+  SET(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "../../../boost_1_75_0/")
+  SET(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "../../../boost_1_75_0/libs")
+
+ENDIF()
+
+INCLUDE_DIRECTORIES( SYSTEM ${Boost_INCLUDE_DIRS} )
+
+
 # Generic test that uses conan libs
-add_executable(intro main.cpp)
+add_executable(intro main.cpp waveColapse.cpp waveColapse.h vector2d.h)
 target_link_libraries(
   intro
   PRIVATE project_options
