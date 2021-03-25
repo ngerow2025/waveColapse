@@ -38,13 +38,13 @@ endmacro()
 #################
 ###  CATCH2
 #################
-set(CONAN_CATCH2_ROOT "/home/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9")
-set(CONAN_INCLUDE_DIRS_CATCH2 "/home/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include")
-set(CONAN_LIB_DIRS_CATCH2 "/home/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib")
+set(CONAN_CATCH2_ROOT "C:/Users/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9")
+set(CONAN_INCLUDE_DIRS_CATCH2 "C:/Users/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include")
+set(CONAN_LIB_DIRS_CATCH2 "C:/Users/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib")
 set(CONAN_BIN_DIRS_CATCH2 )
 set(CONAN_RES_DIRS_CATCH2 )
 set(CONAN_SRC_DIRS_CATCH2 )
-set(CONAN_BUILD_DIRS_CATCH2 "/home/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/cmake/Catch2")
+set(CONAN_BUILD_DIRS_CATCH2 "C:/Users/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/cmake/Catch2")
 set(CONAN_FRAMEWORK_DIRS_CATCH2 )
 set(CONAN_LIBS_CATCH2 )
 set(CONAN_PKG_LIBS_CATCH2 )
@@ -76,17 +76,17 @@ set(CONAN_LIBS_CATCH2 ${CONAN_PKG_LIBS_CATCH2} ${CONAN_SYSTEM_LIBS_CATCH2} ${CON
 #################
 ###  DOCOPT.CPP
 #################
-set(CONAN_DOCOPT.CPP_ROOT "/home/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680")
-set(CONAN_INCLUDE_DIRS_DOCOPT.CPP "/home/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/include")
-set(CONAN_LIB_DIRS_DOCOPT.CPP "/home/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/lib")
+set(CONAN_DOCOPT.CPP_ROOT "C:/Users/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b")
+set(CONAN_INCLUDE_DIRS_DOCOPT.CPP "C:/Users/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/include")
+set(CONAN_LIB_DIRS_DOCOPT.CPP "C:/Users/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/lib")
 set(CONAN_BIN_DIRS_DOCOPT.CPP )
 set(CONAN_RES_DIRS_DOCOPT.CPP )
 set(CONAN_SRC_DIRS_DOCOPT.CPP )
-set(CONAN_BUILD_DIRS_DOCOPT.CPP "/home/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/")
+set(CONAN_BUILD_DIRS_DOCOPT.CPP "C:/Users/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/")
 set(CONAN_FRAMEWORK_DIRS_DOCOPT.CPP )
 set(CONAN_LIBS_DOCOPT.CPP docopt)
 set(CONAN_PKG_LIBS_DOCOPT.CPP docopt)
-set(CONAN_SYSTEM_LIBS_DOCOPT.CPP m)
+set(CONAN_SYSTEM_LIBS_DOCOPT.CPP )
 set(CONAN_FRAMEWORKS_DOCOPT.CPP )
 set(CONAN_FRAMEWORKS_FOUND_DOCOPT.CPP "")  # Will be filled later
 set(CONAN_DEFINES_DOCOPT.CPP )
@@ -114,17 +114,17 @@ set(CONAN_LIBS_DOCOPT.CPP ${CONAN_PKG_LIBS_DOCOPT.CPP} ${CONAN_SYSTEM_LIBS_DOCOP
 #################
 ###  SPDLOG
 #################
-set(CONAN_SPDLOG_ROOT "/home/ngero/.conan/data/spdlog/1.5.0/_/_/package/d59605e40ccde8323e7a567015b275e22c0d77f7")
-set(CONAN_INCLUDE_DIRS_SPDLOG "/home/ngero/.conan/data/spdlog/1.5.0/_/_/package/d59605e40ccde8323e7a567015b275e22c0d77f7/include")
-set(CONAN_LIB_DIRS_SPDLOG "/home/ngero/.conan/data/spdlog/1.5.0/_/_/package/d59605e40ccde8323e7a567015b275e22c0d77f7/lib")
+set(CONAN_SPDLOG_ROOT "C:/Users/ngero/.conan/data/spdlog/1.5.0/_/_/package/cf72f4f3a71ff1fe5381d0f0ebe068c867c28045")
+set(CONAN_INCLUDE_DIRS_SPDLOG "C:/Users/ngero/.conan/data/spdlog/1.5.0/_/_/package/cf72f4f3a71ff1fe5381d0f0ebe068c867c28045/include")
+set(CONAN_LIB_DIRS_SPDLOG "C:/Users/ngero/.conan/data/spdlog/1.5.0/_/_/package/cf72f4f3a71ff1fe5381d0f0ebe068c867c28045/lib")
 set(CONAN_BIN_DIRS_SPDLOG )
 set(CONAN_RES_DIRS_SPDLOG )
 set(CONAN_SRC_DIRS_SPDLOG )
-set(CONAN_BUILD_DIRS_SPDLOG "/home/ngero/.conan/data/spdlog/1.5.0/_/_/package/d59605e40ccde8323e7a567015b275e22c0d77f7/")
+set(CONAN_BUILD_DIRS_SPDLOG "C:/Users/ngero/.conan/data/spdlog/1.5.0/_/_/package/cf72f4f3a71ff1fe5381d0f0ebe068c867c28045/")
 set(CONAN_FRAMEWORK_DIRS_SPDLOG )
 set(CONAN_LIBS_SPDLOG spdlogd)
 set(CONAN_PKG_LIBS_SPDLOG spdlogd)
-set(CONAN_SYSTEM_LIBS_SPDLOG pthread)
+set(CONAN_SYSTEM_LIBS_SPDLOG )
 set(CONAN_FRAMEWORKS_SPDLOG )
 set(CONAN_FRAMEWORKS_FOUND_SPDLOG "")  # Will be filled later
 set(CONAN_DEFINES_SPDLOG "-DSPDLOG_COMPILED_LIB"
@@ -154,13 +154,13 @@ set(CONAN_LIBS_SPDLOG ${CONAN_PKG_LIBS_SPDLOG} ${CONAN_SYSTEM_LIBS_SPDLOG} ${CON
 #################
 ###  FMT
 #################
-set(CONAN_FMT_ROOT "/home/ngero/.conan/data/fmt/6.2.0/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680")
-set(CONAN_INCLUDE_DIRS_FMT "/home/ngero/.conan/data/fmt/6.2.0/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/include")
-set(CONAN_LIB_DIRS_FMT "/home/ngero/.conan/data/fmt/6.2.0/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/lib")
+set(CONAN_FMT_ROOT "C:/Users/ngero/.conan/data/fmt/6.2.0/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b")
+set(CONAN_INCLUDE_DIRS_FMT "C:/Users/ngero/.conan/data/fmt/6.2.0/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/include")
+set(CONAN_LIB_DIRS_FMT "C:/Users/ngero/.conan/data/fmt/6.2.0/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/lib")
 set(CONAN_BIN_DIRS_FMT )
 set(CONAN_RES_DIRS_FMT )
 set(CONAN_SRC_DIRS_FMT )
-set(CONAN_BUILD_DIRS_FMT "/home/ngero/.conan/data/fmt/6.2.0/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/")
+set(CONAN_BUILD_DIRS_FMT "C:/Users/ngero/.conan/data/fmt/6.2.0/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/")
 set(CONAN_FRAMEWORK_DIRS_FMT )
 set(CONAN_LIBS_FMT fmtd)
 set(CONAN_PKG_LIBS_FMT fmtd)
@@ -194,14 +194,14 @@ set(CONAN_LIBS_FMT ${CONAN_PKG_LIBS_FMT} ${CONAN_SYSTEM_LIBS_FMT} ${CONAN_FRAMEW
 set(CONAN_PACKAGE_NAME None)
 set(CONAN_PACKAGE_VERSION None)
 
-set(CONAN_SETTINGS_ARCH "x86_64")
+set(CONAN_SETTINGS_ARCH "x86")
 set(CONAN_SETTINGS_ARCH_BUILD "x86_64")
 set(CONAN_SETTINGS_BUILD_TYPE "Debug")
-set(CONAN_SETTINGS_COMPILER "clang")
-set(CONAN_SETTINGS_COMPILER_LIBCXX "libstdc++11")
-set(CONAN_SETTINGS_COMPILER_VERSION "10")
-set(CONAN_SETTINGS_OS "Linux")
-set(CONAN_SETTINGS_OS_BUILD "Linux")
+set(CONAN_SETTINGS_COMPILER "Visual Studio")
+set(CONAN_SETTINGS_COMPILER_RUNTIME "MDd")
+set(CONAN_SETTINGS_COMPILER_VERSION "16")
+set(CONAN_SETTINGS_OS "Windows")
+set(CONAN_SETTINGS_OS_BUILD "Windows")
 
 set(CONAN_DEPENDENCIES catch2 docopt.cpp spdlog fmt)
 # Storing original command line args (CMake helper) flags
@@ -211,29 +211,29 @@ set(CONAN_CMD_SHARED_LINKER_FLAGS ${CONAN_SHARED_LINKER_FLAGS})
 set(CONAN_CMD_C_FLAGS ${CONAN_C_FLAGS})
 # Defining accumulated conan variables for all deps
 
-set(CONAN_INCLUDE_DIRS "/home/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"
-			"/home/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/include"
-			"/home/ngero/.conan/data/spdlog/1.5.0/_/_/package/d59605e40ccde8323e7a567015b275e22c0d77f7/include"
-			"/home/ngero/.conan/data/fmt/6.2.0/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/include" ${CONAN_INCLUDE_DIRS})
-set(CONAN_LIB_DIRS "/home/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib"
-			"/home/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/lib"
-			"/home/ngero/.conan/data/spdlog/1.5.0/_/_/package/d59605e40ccde8323e7a567015b275e22c0d77f7/lib"
-			"/home/ngero/.conan/data/fmt/6.2.0/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/lib" ${CONAN_LIB_DIRS})
+set(CONAN_INCLUDE_DIRS "C:/Users/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"
+			"C:/Users/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/include"
+			"C:/Users/ngero/.conan/data/spdlog/1.5.0/_/_/package/cf72f4f3a71ff1fe5381d0f0ebe068c867c28045/include"
+			"C:/Users/ngero/.conan/data/fmt/6.2.0/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/include" ${CONAN_INCLUDE_DIRS})
+set(CONAN_LIB_DIRS "C:/Users/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib"
+			"C:/Users/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/lib"
+			"C:/Users/ngero/.conan/data/spdlog/1.5.0/_/_/package/cf72f4f3a71ff1fe5381d0f0ebe068c867c28045/lib"
+			"C:/Users/ngero/.conan/data/fmt/6.2.0/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/lib" ${CONAN_LIB_DIRS})
 set(CONAN_BIN_DIRS  ${CONAN_BIN_DIRS})
 set(CONAN_RES_DIRS  ${CONAN_RES_DIRS})
 set(CONAN_FRAMEWORK_DIRS  ${CONAN_FRAMEWORK_DIRS})
 set(CONAN_LIBS docopt spdlogd fmtd ${CONAN_LIBS})
 set(CONAN_PKG_LIBS docopt spdlogd fmtd ${CONAN_PKG_LIBS})
-set(CONAN_SYSTEM_LIBS m pthread ${CONAN_SYSTEM_LIBS})
+set(CONAN_SYSTEM_LIBS  ${CONAN_SYSTEM_LIBS})
 set(CONAN_FRAMEWORKS  ${CONAN_FRAMEWORKS})
 set(CONAN_FRAMEWORKS_FOUND "")  # Will be filled later
 set(CONAN_DEFINES "-DSPDLOG_COMPILED_LIB"
 			"-DSPDLOG_FMT_EXTERNAL" ${CONAN_DEFINES})
 set(CONAN_BUILD_MODULES_PATHS  ${CONAN_BUILD_MODULES_PATHS})
-set(CONAN_CMAKE_MODULE_PATH "/home/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/cmake/Catch2"
-			"/home/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/"
-			"/home/ngero/.conan/data/spdlog/1.5.0/_/_/package/d59605e40ccde8323e7a567015b275e22c0d77f7/"
-			"/home/ngero/.conan/data/fmt/6.2.0/_/_/package/803d1cd04e225b70657161961aaf49e6f4674680/" ${CONAN_CMAKE_MODULE_PATH})
+set(CONAN_CMAKE_MODULE_PATH "C:/Users/ngero/.conan/data/catch2/2.13.3/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/cmake/Catch2"
+			"C:/Users/ngero/.conan/data/docopt.cpp/0.6.2/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/"
+			"C:/Users/ngero/.conan/data/spdlog/1.5.0/_/_/package/cf72f4f3a71ff1fe5381d0f0ebe068c867c28045/"
+			"C:/Users/ngero/.conan/data/fmt/6.2.0/_/_/package/9ffec4a59d60a2ccf636e06ba57253e21417f01b/" ${CONAN_CMAKE_MODULE_PATH})
 
 set(CONAN_CXX_FLAGS " ${CONAN_CXX_FLAGS}")
 set(CONAN_SHARED_LINKER_FLAGS " ${CONAN_SHARED_LINKER_FLAGS}")

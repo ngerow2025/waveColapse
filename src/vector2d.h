@@ -11,19 +11,21 @@
 template <typename T>
 class Matrix2dv2
 {
+private:
+  T _defVal;
 public:
-  Matrix2dv2(T defVal): defVal(defVal){}
+  Matrix2dv2(T defVal): _defVal(defVal){}
   T &getVal(int a, int b)
   {
     if (m.find(a) == m.end())
     {
-      return defVal;
+      return _defVal;
     }
     else
     {
       if (m[a].find(b) == m[a].end())
       {
-        return defVal;
+        return _defVal;
       }
       else
       {
@@ -36,7 +38,7 @@ public:
     return m[a];
   }
   std::map<int, std::map<int, T>> m;
-  T defVal;
+
 };
 
 template <typename T>

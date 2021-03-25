@@ -41,16 +41,9 @@ if(CPP_STARTER_USE_NANA)
   add_subdirectory(nana)
 endif()
 
-FIND_PACKAGE(Boost)
 
-IF(!Boost_FOUND)
 
-  SET(CMAKE_INCLUDE_PATH ${CMAKE_INCLUDE_PATH} "../../../boost_1_75_0/")
-  SET(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "../../../boost_1_75_0/libs")
-
-ENDIF()
-
-INCLUDE_DIRECTORIES( SYSTEM ${Boost_INCLUDE_DIRS} )
+INCLUDE_DIRECTORIES( SYSTEM "/media/ngero/F42D-011C/boost_1_75_0/")
 
 
 # Generic test that uses conan libs
@@ -61,4 +54,6 @@ target_link_libraries(
           project_warnings
           CONAN_PKG::docopt.cpp
           CONAN_PKG::fmt
-          CONAN_PKG::spdlog)
+          CONAN_PKG::spdlog
+  PUBLIC "/media/ngero/F42D-011C/boost_1_75_0/libs"
+  PUBLIC pthread dl)
