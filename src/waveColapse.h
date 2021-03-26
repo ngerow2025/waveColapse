@@ -9,13 +9,21 @@
 #include <vector>
 #include "vector2d.h"
 #include <list>
+
+
+#ifdef _MSC_VER
+#pragma warning(disable: 4826 4619)
+#endif
 #include <boost/dynamic_bitset.hpp>
+#ifdef _MSC_VER
+#pragma warning(default: 4619 4619)
+#endif
 
 struct output{
   int** data;
   int x;
   int y;
-} __attribute__((aligned(16)));
+};
 
 
 int* serialise(output data);
@@ -30,7 +38,7 @@ struct rule{
   boost::dynamic_bitset<> bottom;
   boost::dynamic_bitset<> left;
   boost::dynamic_bitset<> right;
-} __attribute__((aligned(128)));
+};
 
 std::function<output(int x, int y)> gen_new(int dimentions, int width, int height, float* weights, int weights_len, rule* rules, int rules_len);
 

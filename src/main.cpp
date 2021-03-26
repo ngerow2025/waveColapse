@@ -4,7 +4,16 @@
 #include <spdlog/spdlog.h>
 #include <docopt/docopt.h>
 #include "waveColapse.h"
+
+
+#ifdef _MSC_VER
+#pragma warning(disable: 4826 4619)
+#endif
 #include <boost/stacktrace.hpp>
+#ifdef _MSC_VER
+#pragma warning(default: 4619 4619)
+#endif
+
 
 int main()
 {

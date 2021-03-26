@@ -10,11 +10,23 @@
 #include "waveColapse.h"
 #include <numeric>
 #include <iostream>
-#include <boost/stacktrace.hpp>
-#include <boost/random.hpp>
-#include "vector2d.h"
 #include <map>
+#include "vector2d.h"
+
+
+#ifdef _MSC_VER
+#pragma warning(disable: 4619)
+#pragma warning(disable: 4826)
+#endif
+#include <boost/random.hpp>
 #include <boost/dynamic_bitset.hpp>
+#ifdef _MSC_VER
+#pragma warning(default: 4619)
+#pragma warning(default: 4826)
+#endif
+
+
+
 
 
 constexpr int MAX_PROPIGATION = 5;

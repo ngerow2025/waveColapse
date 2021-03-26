@@ -4,44 +4,45 @@
 
 #ifndef MYPROJECT_VECTOR2D_H
 #define MYPROJECT_VECTOR2D_H
-#include <boost/stacktrace.hpp>
 #include <iostream>
 #include <map>
 
-template <typename T>
+
+#ifdef _MSC_VER
+#pragma warning(disable: 4826 4619)
+#endif
+#include <boost/stacktrace.hpp>
+#ifdef _MSC_VER
+#pragma warning(default: 4619 4619)
+#endif
+
+template<typename T>
 class Matrix2dv2
 {
 private:
   T _defVal;
+  std::map<int, std::map<int, T>> m;
 public:
-  Matrix2dv2(T defVal): _defVal(defVal){}
+  explicit Matrix2dv2(T defVal) : _defVal(defVal) {}
   T &getVal(int a, int b)
   {
-    if (m.find(a) == m.end())
-    {
+    if (m.find(a) == m.end()) {
       return _defVal;
     }
-    else
-    {
-      if (m[a].find(b) == m[a].end())
-      {
-        return _defVal;
-      }
-      else
-      {
-        return m[a][b];
-      }
+
+    if (m[a].find(b) == m[a].end()) {
+      return _defVal;
     }
+
+    return m[a][b];
   }
   std::map<int, T> &operator[](int a)
   {
     return m[a];
   }
-  std::map<int, std::map<int, T>> m;
-
 };
 
-template <typename T>
+template<typename T>
 using Matrix2d = std::map<int, std::map<int, T>>;
 
 #endif//MYPROJECT_VECTOR2D_H
