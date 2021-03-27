@@ -60,13 +60,12 @@ inline bool operator!=(tile lhs, tile rhs ){
 
 
 using domain = boost::dynamic_bitset<>;
-using tiles_probs = Matrix2d<domain>;
+using tiles_probs = Matrix2dv2<domain>;
 using tiles = Matrix2dv2<std::pair<tile *, int>>;
 
 
 
 
-void print_map(const Matrix2d<domain> &thang);
 
 float random(float min, float max);
 

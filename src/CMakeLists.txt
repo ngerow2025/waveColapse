@@ -43,7 +43,7 @@ endif()
 
 
 
-INCLUDE_DIRECTORIES( SYSTEM "../../../boost_1_75_0/" SYSTEM)
+INCLUDE_DIRECTORIES( SYSTEM "../boost_1_75_0/")
 
 
 # Generic test that uses conan libs
@@ -55,6 +55,6 @@ target_link_libraries(
           CONAN_PKG::docopt.cpp
           CONAN_PKG::fmt
           CONAN_PKG::spdlog
-#  PUBLIC "../../../boost_1_75_0/libs"
+#  PUBLIC "../boost_1_75_0/libs"
 #  PUBLIC pthread dl
 )

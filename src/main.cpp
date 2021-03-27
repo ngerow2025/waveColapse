@@ -57,7 +57,6 @@ int main()
   const int width = 5;
   const int height = 5;
   WCF wtf(width, height, weights, tileSet, rules);
-  print_map(wtf.world_probility);
   std::cout << "done" << std::endl;
   return (0);
 }
