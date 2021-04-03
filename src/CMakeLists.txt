@@ -47,7 +47,7 @@ INCLUDE_DIRECTORIES( SYSTEM "../boost_1_75_0/")
 
 
 # Generic test that uses conan libs
-add_executable(intro main.cpp waveColapse.cpp waveColapse.h vector2d.h)
+add_executable(intro main.cpp waveColapse.cpp waveColapse.h vector2d.h emscripton_main.cpp emscripton_main.h)
 target_link_libraries(
   intro
   PRIVATE project_options
@@ -56,5 +56,8 @@ target_link_libraries(
           CONAN_PKG::fmt
           CONAN_PKG::spdlog
 #  PUBLIC "../boost_1_75_0/libs"
-#  PUBLIC pthread dl
+  PUBLIC pthread dl
 )
+
+
+
